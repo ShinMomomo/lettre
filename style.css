@@ -1,0 +1,36 @@
+body {
+	display: flex;
+	justify-content: center;
+	align-content: center;
+}
+
+.un {
+	background-image: url(heart1.gif);
+}
+
+.deux {
+	background-image: url(pinkheart.gif);	
+}
+
+.lettre {
+	position: absolute;
+	inset: 0;
+	margin-left: 350px;
+	margin-right: 350px;
+	margin-top: 10%;
+	margin-bottom: 20%;
+	text-align: center;
+	background-color: white;
+	padding: 50px;
+	overflow: auto;
+}
+
+a {
+	background-color: hotpink;
+	color: white;
+	padding: 5px;
+}
+
+h1 {
+	color: hotpink;
+}
