@@ -34,3 +34,15 @@ a {
 h1 {
 	color: hotpink;
 }
+
+@media screen and (max-width: 800px){
+	body {
+		margin-left: 5px;
+		margin-right: 5px;
+	}
+	.lettre {
+		position: relative;
+	}
+	h1 {font-size: 120%;}
+	p{font-size: 80%;}
+}
